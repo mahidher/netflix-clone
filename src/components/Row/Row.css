@@ -1,0 +1,51 @@
+.movieImage {
+  width: 98%;
+  height: 100%;
+}
+
+.carousal {
+  position: relative;
+}
+
+.button {
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+/* button:hover {
+  background: grey;
+  opacity: 0.5;
+} */
+
+.button-back {
+  position: absolute;
+
+  top: 0px;
+}
+
+.button-next {
+  position: absolute;
+
+  right: 0;
+  top: 0px;
+}
+
+.button-back i {
+  padding-left: 8px;
+}
+
+.button-next i {
+  padding-right: 8px;
+}
+
+.button i:hover {
+  transform: scale(2, 2);
+  cursor: pointer;
+}
+
+.row h3 {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}

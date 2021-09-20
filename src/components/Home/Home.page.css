@@ -1,0 +1,15 @@
+.home {
+  position: relative;
+}
+
+.home-img {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+/* .home-content {
+  position: absolute;
+  width: 96vw;
+  top: 71vh;
+} */

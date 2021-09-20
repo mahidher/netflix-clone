@@ -1,13 +1,13 @@
 import "./App.css";
-import Row from "./components/Row/Row";
-import movieData from "./requests";
-import dotenv from "dotenv";
+import Homepage from "./components/Home/Home.page";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <div className='App'>
-      {movieData.map((data) => (
-        <Row title={data.title} url={data.url}></Row>
-      ))}
+    <div className='app-container'>
+      <Navbar />
+      <Homepage />
+      <Footer />
     </div>
   );
 }
